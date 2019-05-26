@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        ems_vue\Providers\AppServiceProvider::class,
+        ems_vue\Providers\AuthServiceProvider::class,
+        // ems_vue\Providers\BroadcastServiceProvider::class,
+        ems_vue\Providers\EventServiceProvider::class,
+        ems_vue\Providers\RouteServiceProvider::class,
 
     ],
 

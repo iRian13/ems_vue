@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace ems_vue;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace ems_vue\Http\Controllers\Auth;
 
-use App\User;
-use App\Http\Controllers\Controller;
+use ems_vue\User;
+use ems_vue\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \App\User
+     * @return \ems_vue\User
      */
     protected function create(array $data)
     {
