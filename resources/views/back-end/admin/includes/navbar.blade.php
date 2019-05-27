@@ -48,18 +48,18 @@
                     <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
                     <li class="nav-item">
-                        <a href="{{ route('home') }}" class="nav-link">
+                        <router-link to="/dashboard" class="nav-link">
                             <i class="nav-icon fa fa-tachometer-alt fa-lg"></i>
                             <p>
                                 Dashboard
                             </p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
-                            <i class="fas fa-tachometer-alt fa-lg nav-icon"></i>
+                            <i class="fas fa-cogs nav-icon"></i>
                             <p>
-                                Starter Pages
+                                Management
                                 <i class="right fa fa-angle-left"></i>
                             </p>
                         </a>
@@ -79,12 +79,12 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <router-link to="/profile" class="nav-link">
                             <i class="nav-icon fa fa-user"></i>
                             <p>
                                 Profile
                             </p>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('logout') }}" class="nav-link"
