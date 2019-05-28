@@ -21,5 +21,4 @@ Route::get('/home', [
     'uses'  =>  'Admin\HomeController@index',
     'as'    =>  'home'
 ]);
-
-Route::get('{path}',"Admin\HomeController@index")->where('path', '([A-z\d-\/_.])?' );
+Route::get("{any}", "Admin\HomeController@index")->where("any", ".*");
